@@ -293,12 +293,11 @@ img {
   flex-basis: calc((100% - 30px * 2) / 3);
 }
 
-/*
 .aboutus-thumb{
   position: relative;
 }
 
-.overlay{
+.overlay-aboutus{
   position: absolute;
   top: 0;
   left: 0;
@@ -306,18 +305,17 @@ img {
   align-items: center;
   
   width: 100%;
-  height: 100%;
+  height: 70px;
 }
 
-.overlay-text{
+.overlay-text-aboutus{
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 16px;
   text-align: center;
+  padding: 27px 107px;
 }
-
-*/
 
 .team{
   background: var(--background-team);

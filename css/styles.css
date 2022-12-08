@@ -8,6 +8,7 @@
   --modal-button-color: #188CE8;
   --background-team: #F5F4FA;
   --filter-button-color: #F5F4FA;
+  --trns: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button{
@@ -118,7 +119,7 @@ img {
   color: var(--main-color-dark-first);
   display: block;
   padding: 32px 0px;  
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--trns);
 }
 
 .current{
@@ -152,7 +153,7 @@ img {
   color: var(--main-color-dark-second);
   display: block;
   padding: 32px 0px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--trns);
 }
 
 .header-contacts-link:hover,
@@ -211,7 +212,7 @@ img {
     border: none;
     border-radius: 4px;
     padding: 10px 32px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--trns);
 }
 
 .modal-button:hover,
@@ -354,7 +355,7 @@ img {
   color: #AFB1B8;
   background-color: #fff;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--trns), color var(--trns);
 }
 
 .socials-team-item-link:hover,
@@ -386,7 +387,7 @@ img {
   color: var(--main-color-dark-first);
   letter-spacing: 0.03em;  
   padding: 6px 22px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--trns), color var(--trns);
   
 }
 .filter-button:hover,
@@ -407,7 +408,7 @@ img {
 
 .portfolio-card-link{
   display: block;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow var(--trns);
 }
 
 .portfolio-card-link:hover,
@@ -460,7 +461,7 @@ img {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   color: #AFB1B8;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color var(--trns), color var(--trns);
 }
 
 .clients-item-link:hover,
@@ -499,7 +500,7 @@ img {
   font-style: normal;  
   line-height: 2;  
   color: var(--main-color-light-first);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--trns);
 }
 
 .footer-address:hover,
@@ -517,7 +518,7 @@ img {
   line-height: 2;  
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--trns);
 }
 
 
@@ -553,7 +554,7 @@ img {
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--trns);
 }
 
 .footer-social-link:hover,
